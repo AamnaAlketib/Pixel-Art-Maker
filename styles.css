@@ -1,0 +1,45 @@
+/*To center all the content*/
+body {
+    text-align: center;
+}
+
+/*the title settings*/
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+h2 {
+    margin: 1em 0 0.25em;
+}
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+/*the table settings*/
+
+/*making the table not visible as deafault*/
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+/*the borders color and thickniss*/
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+/*setting the height and width of the table cells*/
+tr {
+    height: 20px;
+}
+td {
+    width: 20px;
+}
+
+/*a constrain so the user can only put a valid number*/
+input[type=number] {
+    width: 6em;
+}
